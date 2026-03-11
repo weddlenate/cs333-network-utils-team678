@@ -6,9 +6,9 @@ analyze network traffic, identify vulnerabilities, and practice ethical hacking 
 controlled environment.
 
 ## Team Members
-Nate Weddle
-Chandler Black
-Hayden Nguyen
+- Nate Weddle
+- Chandler Black
+- Hayden Nguyen
 
 ## Quick Start
 
