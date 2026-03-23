@@ -19,14 +19,14 @@ To get started with the network utilities, follow these steps:
 ## Network Packet Structure
 
 - TCP Packet
-  - Source Port
+  - Source Port (16 bits)
     - Port number that the application sends data to
-  - Destination Port
+  - Destination Port (16 bits)
     - Port number that the application sends data from
-  - Sequence Number
+  - Sequence Number (32 bits)
     - Position of the first byte of data in this segment
     - This assures that data is assembled in the correct order once it has been received
-  - Acknowledgement Number
+  - Acknowledgement Number (32 bits)
     - Confirms successful retrieval of data and indicates the next byte that the sender should transmit
   - Flags
     - Used to indicate the particular state of connection or to provide additional information used for troubleshooting
@@ -37,7 +37,7 @@ To get started with the network utilities, follow these steps:
       - Reset (RST)
       - Urgent (URG)
       - Push (PSH)
-  - Data
+  - Data (32 bits)
     - Actual application data being sent
   - Checksum
     - Ensures integrity in the transmission
